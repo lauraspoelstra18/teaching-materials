@@ -1,0 +1,13 @@
+auxiliary_data_dir: /data/shared/climate-data/aux
+input_files:
+- /home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepq2ihptwp_20260321_153051/preproc/diagnostic/pr/metadata.yml
+- /home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepq2ihptwp_20260321_153051/preproc/diagnostic/tas/metadata.yml
+- /home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepq2ihptwp_20260321_153051/preproc/diagnostic/rsds/metadata.yml
+log_level: info
+output_file_type: png
+plot_dir: /home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepq2ihptwp_20260321_153051/plots/diagnostic/script
+recipe: ewcrepq2ihptwp.yml
+run_dir: /home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepq2ihptwp_20260321_153051/run/diagnostic/script
+script: script
+version: 2.11.1
+work_dir: /home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/esmvaltool_output/ewcrepq2ihptwp_20260321_153051/work/diagnostic/script

@@ -1,0 +1,6 @@
+{
+    "precipitation_file": "/home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/MoselleForcing/OBS6_ERA5_reanaly_1_day_pr_2010-2012.nc",
+    "potential_evaporation_file": "/home/group10/teaching-materials/book/2_modelling_advanced_ewatercycle/Forcing/MoselleForcing/Derived_Makkink_evspsblpot.nc",
+    "parameters": "0.08458055419048094,0.5625601164819352,63.16137795653244,2.070323494725731,0.1674757043718617,2.8878819879115083,0.03264153793528812,0.006327143059798934",
+    "initial_storage": "0,100,0,5"
+}

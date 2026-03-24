@@ -1,0 +1,4 @@
+2026-03-24 13:58:37,128 UTC [162755] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-24 13:58:37,132 UTC [162755] WARNING Comm:255 No such comm: 97ab3d4f-d3ac-4904-999c-b35b6bf68fd3
+2026-03-24 13:58:37,693 UTC [162755] ERROR   asyncio:1820 Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Kernel.poll_control_queue() running at /opt/conda/envs/ewatercycle2/lib/python3.12/site-packages/ipykernel/kernelbase.py:304> wait_for=<Future finished result=<Future at 0x...state=pending>> cb=[_chain_future.<locals>._call_set_state() at /opt/conda/envs/ewatercycle2/lib/python3.12/asyncio/futures.py:398]>

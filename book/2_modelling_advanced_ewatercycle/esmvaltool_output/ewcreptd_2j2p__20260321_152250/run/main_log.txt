@@ -1,0 +1,192 @@
+ERROR   [58040] No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcreptd_2j2p__20260321_152250'
+ERROR   [58040] Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+ERROR   [58040] Set 'log_level' to 'debug' to get more information
+ERROR   [58040] Could not create all tasks
+ERROR   [58040] Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+ERROR   [58040] No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcreps38p4mwi_20260321_152912'
+ERROR   [58040] Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+ERROR   [58040] Set 'log_level' to 'debug' to get more information
+ERROR   [58040] Could not create all tasks
+ERROR   [58040] Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: 95208768-1cf9-43f5-aa55-fc5c190ade37
+ERROR   [58040] No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrepbyagl91b_20260321_153519'
+ERROR   [58040] Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+ERROR   [58040] Set 'log_level' to 'debug' to get more information
+ERROR   [58040] Could not create all tasks
+ERROR   [58040] Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+ERROR   [58040] No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrepoyisudzv_20260321_153547'
+ERROR   [58040] Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+ERROR   [58040] Set 'log_level' to 'debug' to get more information
+ERROR   [58040] Could not create all tasks
+ERROR   [58040] Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: e41558fe-489a-40d9-958c-85ebc6ad81c0
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: 3faf0f35-1070-4d70-8367-d475df02d959
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: 9ab6a770-18ea-4311-b1e4-9569caabdfb7
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: c62e1b80-71ee-4856-9cb2-d9f918543495
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: af63f886-6e62-43f6-871f-ffd8096b13b0
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: 50cb06fb-a05f-4d0a-88b6-3fd5891209c2
+ERROR   [58040] No such comm target registered: jupyter.widget.control
+WARNING [58040] No such comm: f71b9ec2-8097-4992-b14e-eda64b2be84a

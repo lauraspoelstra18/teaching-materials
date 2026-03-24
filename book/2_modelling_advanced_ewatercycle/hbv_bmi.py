@@ -8,7 +8,7 @@ from pathlib import Path
 import json
 
 
-DICT_VAR_UNITS = {"Imax":"mm",
+DICT_VAR_UNITS = {"I_max":"mm",
                     "Ce": "-",
                     "Sumax": "mm",
                     "Beta": "-",
@@ -88,7 +88,6 @@ class HBV_Bmi(Bmi):
     "Only adjust the update function!"
 
 ###############################################################################    
-
     
     def update(self) -> None:
             """ Updates model one timestep  """
@@ -101,47 +100,53 @@ class HBV_Bmi(Bmi):
                 # Interception Reservoir
                 if self.P_dt > 0:
                     # if there is rain, no evap
+
                     self.Si    = self.Si + self.P_dt               # increase the storage
-                    self.Pe_dt = 0 # adjust if needed
-                    self.Si    = 0 # adjust if needed
+                    self.Pe_dt = max(0, self.Si - self.I_max) # adjust if needed
+                    self.Si    = min(self.Si, self.I_max) # adjust if needed
                     self.Ei_dt = 0 # adjust if needed                         
                 else:
                     # Evaporation only when there is no rainfall
                     self.Pe_dt = 0 # adjust if needed
-                    self.Ei_dt = 0 # adjust if needed
-                    self.Si    = 0 # adjust if needed
+                    self.Ei_dt = min(self.Si, self.Ep_dt) # adjust if needed
+                    self.Si    = self.Si - self.Ei_dt # adjust if needed
 
                 # split flow into Unsaturated Reservoir and Fast flow
                 if self.Pe_dt > 0:
-                    cr       = 0 # adjust if needed
-                    Qiu_dt   = 0 # adjust if needed      
-                    self.Su  = 0 # adjust if needed
-                    Quf_dt   = 0 # adjust if needed            
+                    cr       = (self.Su / self.Su_max) ** self.beta # adjust if needed
+                    cr = min(max(cr, 0), 1)
+                    Qiu_dt   = (1 - cr) * self.Pe_dt # adjust if needed      
+                    self.Su  = self.Su + Qiu_dt # adjust if needed
+                    Quf_dt   = cr * self.Pe_dt # adjust if needed            
                 else:
-                    Quf_dt   = 0   # adjust if needed         
+                    Quf_dt   = 0   # adjust if needed 
+                    Qiu_dt   = 0
 
                 # Transpiration
-                self.Ep_dt = 0 # adjust if needed 
-                self.Ea_dt = 0 # adjust if needed
-                self.Ea_dt = 0 # adjust if needed
-                self.Su    = 0 # adjust if needed
+                self.Ep_dt = max(0, self.Ep_dt - self.Ei_dt) # adjust if needed 
+                self.Ea_dt = (self.Su / (self.Su_max * self.Ce)) * self.Ep_dt # adjust if needed
+                self.Ea_dt = min(self.Ea_dt, self.Su) # adjust if needed
+                self.Su    = self.Su - self.Ea_dt # adjust if needed
 
                 # Percolation
-                self.Qus_dt = 0 # adjust if needed
-                self.Su     = 0 # adjust if needed
+                self.Qus_dt = self.P_max * (self.Su / self.Su_max) # adjust if needed
+                self.Qus_dt = min(self.Qus_dt, self.Su)
+                self.Su     = self.Su - self.Qus_dt # adjust if needed
 
                 # Fast Reservoir
-                self.Sf    = 0 # adjust if needed 
-                self.Qf_dt = 0 # adjust if needed
-                self.Sf    = 0 # adjust if needed
+                self.Sf    = self.Sf + self.Quf_dt # adjust if needed 
+                self.Qf_dt = self.Kf * self.Sf # adjust if needed
+                self.Qf_dt = min(self.Qf_dt, self.Sf)
+                self.Sf    = self.Sf - self.Qf_dt # adjust if needed
 
                 # Slow Reservoir
-                self.Ss    = 0 # adjust if needed
-                self.Qs_dt = 0 # adjust if needed
-                self.Ss    = 0 # adjust if needed
+                self.Ss    = self.Ss + self.Qus_dt # adjust if needed
+                self.Qs_dt = self.Ks * self.Ss # adjust if needed
+                self.Qs_dt = min(self.Qs_dt, self.Ss)
+                self.Ss    = self.Ss - self.Qs_dt # adjust if needed
 
                 # total = fast + slow
-                self.Q_tot_dt = 0 # adjust if needed
+                self.Q_tot_dt = self.Qf_dt + self.Qs_dt # adjust if needed
                 
                 # add time lag to the process - Qm is set here
                 self.add_time_lag()

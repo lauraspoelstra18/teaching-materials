@@ -1,0 +1,148 @@
+2026-03-21 16:29:12,568 UTC [58040] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcreps38p4mwi_20260321_152912'
+2026-03-21 16:29:12,571 UTC [58040] ERROR   esmvalcore._recipe.check:137 Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+2026-03-21 16:29:12,572 UTC [58040] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-21 16:29:12,572 UTC [58040] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-21 16:29:12,573 UTC [58040] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+2026-03-21 16:34:42,091 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 16:34:42,094 UTC [58040] WARNING Comm:255 No such comm: 95208768-1cf9-43f5-aa55-fc5c190ade37
+2026-03-21 16:35:20,105 UTC [58040] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrepbyagl91b_20260321_153519'
+2026-03-21 16:35:20,108 UTC [58040] ERROR   esmvalcore._recipe.check:137 Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+2026-03-21 16:35:20,109 UTC [58040] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-21 16:35:20,110 UTC [58040] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-21 16:35:20,110 UTC [58040] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+2026-03-21 16:35:47,624 UTC [58040] ERROR   esmvalcore._recipe.check:131 No input files found for Dataset:
+{'diagnostic': 'diagnostic',
+ 'variable_group': 'rsds',
+ 'dataset': 'EC-Earth3',
+ 'project': 'CMIP6',
+ 'mip': 'day',
+ 'short_name': 'rsds',
+ 'activity': 'CMIP',
+ 'alias': 'EC-Earth3',
+ 'ensemble': 'r6i1p1f1',
+ 'exp': 'historical',
+ 'frequency': 'day',
+ 'grid': 'gr',
+ 'institute': ['EC-Earth-Consortium'],
+ 'long_name': 'Surface Downwelling Shortwave Radiation',
+ 'modeling_realm': ['atmos'],
+ 'original_short_name': 'rsds',
+ 'preprocessor': 'rsds',
+ 'recipe_dataset_index': 0,
+ 'standard_name': 'surface_downwelling_shortwave_flux_in_air',
+ 'timerange': '2010/2012',
+ 'units': 'W m-2'}
+supplementaries:
+  {'dataset': 'EC-Earth3',
+   'project': 'CMIP6',
+   'mip': 'fx',
+   'short_name': 'areacella',
+   'activity': 'CMIP',
+   'ensemble': 'r1i1p1f1',
+   'exp': 'historical',
+   'frequency': 'fx',
+   'grid': 'gr',
+   'institute': 'EC-Earth-Consortium',
+   'long_name': 'Grid-Cell Area for Atmospheric Grid Variables',
+   'modeling_realm': ['atmos', 'land'],
+   'original_short_name': 'areacella',
+   'standard_name': 'cell_area',
+   'units': 'm2'}
+session: 'ewcrepoyisudzv_20260321_153547'
+2026-03-21 16:35:47,627 UTC [58040] ERROR   esmvalcore._recipe.check:137 Looked for files matching: /home/group10/.esmvaltool/downloads/CMIP6/CMIP6/CMIP/EC-Earth-Consortium/EC-Earth3/historical/r6i1p1f1/day/rsds/gr/*/rsds_day_EC-Earth3_historical_r6i1p1f1_gr*.nc
+2026-03-21 16:35:47,628 UTC [58040] ERROR   esmvalcore._recipe.check:138 Set 'log_level' to 'debug' to get more information
+2026-03-21 16:35:47,629 UTC [58040] ERROR   esmvalcore._recipe.recipe:747 Could not create all tasks
+2026-03-21 16:35:47,630 UTC [58040] ERROR   esmvalcore._recipe.recipe:749 Missing data for preprocessor diagnostic/rsds:
+- Missing data for Dataset: rsds, day, CMIP6, EC-Earth3, CMIP, historical, r6i1p1f1, gr, supplementaries: areacella, fx, r1i1p1f1
+2026-03-21 16:55:43,469 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 16:55:43,472 UTC [58040] WARNING Comm:255 No such comm: e41558fe-489a-40d9-958c-85ebc6ad81c0
+2026-03-21 18:12:46,977 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 18:12:46,979 UTC [58040] WARNING Comm:255 No such comm: 3faf0f35-1070-4d70-8367-d475df02d959
+2026-03-21 18:15:28,723 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 18:15:28,726 UTC [58040] WARNING Comm:255 No such comm: 9ab6a770-18ea-4311-b1e4-9569caabdfb7
+2026-03-21 18:16:51,497 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 18:16:51,500 UTC [58040] WARNING Comm:255 No such comm: c62e1b80-71ee-4856-9cb2-d9f918543495
+2026-03-21 18:47:45,952 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 18:47:45,955 UTC [58040] WARNING Comm:255 No such comm: af63f886-6e62-43f6-871f-ffd8096b13b0
+2026-03-21 22:18:14,493 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 22:18:14,496 UTC [58040] WARNING Comm:255 No such comm: 50cb06fb-a05f-4d0a-88b6-3fd5891209c2
+2026-03-21 22:57:23,984 UTC [58040] ERROR   ipykernel.comm:46 No such comm target registered: jupyter.widget.control
+2026-03-21 22:57:23,987 UTC [58040] WARNING Comm:255 No such comm: f71b9ec2-8097-4992-b14e-eda64b2be84a
